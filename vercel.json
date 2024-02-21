@@ -3,7 +3,7 @@
     "name":"india-interative",
     "builds":[
         {
-            "src":"index.js",
+            "src":"index.html",
             "use":"@vercel/node"
         }
     ],
