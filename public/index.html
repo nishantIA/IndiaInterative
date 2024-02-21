@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+	<!-- Document Meta
+    ============================================= -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--IE Compatibility Meta-->
+	<meta name="author" content="zytheme" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Multi-purpose Business html5 landing page">
+	<link href="assets/images/favicon/favicon.ico" rel="icon">
+
+	<!-- Fonts
+    ============================================= -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700' rel='stylesheet' type='text/css'>
+
+	<!-- Stylesheets
+    ============================================= -->
+	<link href="assets/css/external.css" rel="stylesheet">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
+		integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css"
+		integrity="sha512-8RxmFOVaKQe/xtg6lbscU9DU0IRhURWEuiI0tXevv+lXbAHfkpamD4VKFQRto9WgfOJDwOZ74c/s9Yesv3VvIQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	<!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+	<!-- Document Title
+    ============================================= -->
+	<title>Vero | Marketing Html5 Landing Page</title>
+</head>
+
+<style>
+	.cities {
+		font-size: calc(100% + 2px);
+		font-weight: 600;
+		color: #e21e26;
+	}
+
+	.logo-dark,
+	.logo-light {
+		width: 220px;
+		max-width: 100%;
+	}
+
+	.paraLogo {
+		width: 30px;
+		height: 30px;
+	}
+
+	.paraLogo svg {
+		width: 100%;
+		height: 100%;
+		background-color: #e21e26;
+		padding: 5px;
+		border-radius: 5px;
+		fill: #ffffff;
+	}
+
+	.paraText {
+		font-size: 1.4rem;
+	}
+
+	.flexContainer {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1.5rem;
+	}
+
+	.flexRow {
+		display: flex;
+		gap: 0.5rem;
+		align-items: center;
+		width: 250px;
+		max-width: 100%;
+	}
+
+	form label {
+		font-size: 16px;
+		font-weight: 600;
+		letter-spacing: 1px;
+	}
+
+	@media(max-width: 768px) {
+
+		.flexContainer.chooseUs {
+			padding-bottom: 40px;
+		}
+	}
+</style>
+
+<body class="body-scroll">
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="wrapper clearfix">
+
+		<!-- Header
+        ============================================= -->
+		<header id="navbar-spy" class="header header-1 header-transparent header-fixed">
+			<nav id="primary-menu" class="navbar navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+							data-target="#navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="logo" href="index.php">
+							<img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Vero Logo">
+							<img class="logo-light" src="assets/images/logo/logo-dark.png" alt="Vero Logo">
+						</a>
+					</div>
+					<div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
+						<ul class="nav navbar-nav nav-pos-right navbar-left nav-split">
+							<!-- <li class="active"><a data-scroll="scrollTo" href="#slider">home</a>
+							</li>
+							<li><a data-scroll="scrollTo" href="#feature2">feature</a>
+							</li>
+							<li><a data-scroll="scrollTo" href="#reviews">reviews</a>
+							</li>
+							<li><a data-scroll="scrollTo" href="#clients">clients</a>
+							</li>
+							<li><a data-scroll="scrollTo" href="#cta">signup</a>
+							</li> -->
+
+							<li>
+								<a href="tel:+919971876616">
+									<span> Looking for workspaces? &nbsp; </span>
+									<span style="color: #e21e26;"> Call now: +91-9971876616</span></a>
+							</li>
+						</ul>
+					</div>
+					<!--/.nav-collapse -->
+				</div>
+			</nav>
+		</header>
+
+		<!-- Slider #1
+		============================================= -->
+		<section id="slider" class="section slider slider-form">
+			<div class="slide--item bg-overlay bg-overlay-dark">
+				<div class="bg-section">
+					<img src="assets/images/background/bg-5.jpeg" alt="bg">
+				</div>
+				<div class="container">
+					<div class="row row-content">
+						<div class="col-xs-12 col-sm-6 col-md-5 pt-100">
+							<div class="slide--headline">Collaborate & Elevate:
+								​Your Ideal Coworking Space Awaits</div>
+							<div class="slide--bio">Choose between fixed seats, private cabins or serviced offices at
+								prime locations in <span class="cities">Pune, Ahmedabad, Noida, Gurgaon.</span></div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-2">
+							<div class="slide--action">
+								<h6>Get a Quote
+								</h6>
+								<!-- <p>Supporting call-to-action goes here</p> -->
+								<form class="mb-0" name="submit-to-google-sheet" action="/submit-form" method="post">
+									<div>
+										<label>Full Name</label>
+										<input type="text" name="FullName" class="form-control">
+									</div>
+									<div>
+										<label>Phone Number</label>
+										<input type="text" name="Number" class="form-control">
+									</div>
+									<div>
+										<label>Seats Required</label>
+										<input type="text" name="Seats" class="form-control">
+									</div>
+
+									<div>
+										<label>Select City</label>
+										<select name="City" id="City" class="form-control">
+											<!-- <option value="Select City" selected disabled>Select City</option> -->
+											<option selected value="Pune">Pune</option>
+											<option value="Ahmedabad">Ahmedabad</option>
+											<option value="Noida">Noida</option>
+											<option value="Gurgaon">Gurgaon</option>
+										</select>
+									</div>
+									<div>
+										<input id="submit-btn" type="submit" class="btn btn--primary btn--block mt-10"
+											value="Submit">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!-- .row end -->
+				</div>
+				<!-- .container end -->
+			</div>
+			<!-- .slide-item end -->
+		</section>
+		<!-- #slider end -->
+
+		<!-- Feature #1
+		============================================= -->
+		<section id="feature1" class="hide section feature feature-left bg-white">
+			<div class="container">
+				<div class="row">
+					<!-- Panel #1 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								<i class="lnr lnr-chart-bars"></i>
+							</div>
+							<div class="feature--content">
+								<h3>Start your campaign</h3>
+								<p>Vero impresses you with fully responsiveness and highly customization.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+
+					<!-- Panel #2 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								<i class="lnr lnr-users"></i>
+							</div>
+							<div class="feature--content">
+								<h3>Engage new users</h3>
+								<p>Vero impresses you with fully responsiveness and highly customization.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+
+					<!-- Panel #3 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								<i class="lnr lnr-gift"></i>
+							</div>
+							<div class="feature--content">
+								<h3>Claim your reward</h3>
+								<p>Vero impresses you with fully responsiveness and highly customization.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+				</div>
+				<!-- .row end -->
+			</div>
+			<!-- .container end -->
+		</section>
+		<!-- #feature2 end -->
+
+		<!-- Feature #2
+		============================================= -->
+		<section id="feature2" class="section feature feature-2">
+			<div class="container">
+				<div class="row clearfix">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+						<div class="heading heading-1 mb-80 text--center wow fadeInUp" data-wow-duration="1s">
+						</div>
+					</div>
+					<!-- .col-md-6 end -->
+				</div>
+				<!-- .row end -->
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6 wow fadeInUp">
+						<img class="img-responsive" src="assets/images/background/bg-2.jpeg" alt="device" />
+					</div>
+					<!-- .col-md-6 end -->
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<div class="wow fadeInUp" data-wow-duration="1s">
+							<h3 style="padding-top: 40px;" class="">Amenities We Offer</h3>
+							<!-- <p class="">Metro Connectivity<br>No Brokerage<br>2 hour response time<br>For all team
+								sizes: 1 to 500</p> -->
+
+							<div class="flexContainer">
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 576 512" height="576" width="512"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										Chair & Desks
+									</div>
+								</div>
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 640 512" height="640" width="512"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M634.91 154.88C457.74-8.99 182.19-8.93 5.09 154.88c-6.66 6.16-6.79 16.59-.35 22.98l34.24 33.97c6.14 6.1 16.02 6.23 22.4.38 145.92-133.68 371.3-133.71 517.25 0 6.38 5.85 16.26 5.71 22.4-.38l34.24-33.97c6.43-6.39 6.3-16.82-.36-22.98zM320 352c-35.35 0-64 28.65-64 64s28.65 64 64 64 64-28.65 64-64-28.65-64-64-64zm202.67-83.59c-115.26-101.93-290.21-101.82-405.34 0-6.9 6.1-7.12 16.69-.57 23.15l34.44 33.99c6 5.92 15.66 6.32 22.05.8 83.95-72.57 209.74-72.41 293.49 0 6.39 5.52 16.05 5.13 22.05-.8l34.44-33.99c6.56-6.46 6.33-17.06-.56-23.15z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										Wifi
+									</div>
+								</div>
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 512 512" height="512" width="512"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M448 192V77.25c0-8.49-3.37-16.62-9.37-22.63L393.37 9.37c-6-6-14.14-9.37-22.63-9.37H96C78.33 0 64 14.33 64 32v160c-35.35 0-64 28.65-64 64v112c0 8.84 7.16 16 16 16h48v96c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32v-96h48c8.84 0 16-7.16 16-16V256c0-35.35-28.65-64-64-64zm-64 256H128v-96h256v96zm0-224H128V64h192v48c0 8.84 7.16 16 16 16h48v96zm48 72c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										Printer
+
+									</div>
+								</div>
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 24 24" height="24" width="24"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M6 2.5C5.44772 2.5 5 2.94772 5 3.5V5.5C5 6.05228 5.44772 6.5 6 6.5C6.55228 6.5 7 6.05228 7 5.5V3.5C7 2.94772 6.55228 2.5 6 2.5Z">
+											</path>
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13 21.5C15.973 21.5 18.441 19.3377 18.917 16.5H19C21.2091 16.5 23 14.7091 23 12.5C23 10.2909 21.2091 8.5 19 8.5V7.5H1V15.5C1 18.8137 3.68629 21.5 7 21.5H13ZM3 9.5V15.5C3 17.7091 4.79086 19.5 7 19.5H13C15.2091 19.5 17 17.7091 17 15.5V9.5H3ZM21 12.5C21 13.6046 20.1046 14.5 19 14.5V10.5C20.1046 10.5 21 11.3954 21 12.5Z">
+											</path>
+											<path
+												d="M9 3.5C9 2.94772 9.44771 2.5 10 2.5C10.5523 2.5 11 2.94772 11 3.5V5.5C11 6.05228 10.5523 6.5 10 6.5C9.44771 6.5 9 6.05228 9 5.5V3.5Z">
+											</path>
+											<path
+												d="M14 2.5C13.4477 2.5 13 2.94772 13 3.5V5.5C13 6.05228 13.4477 6.5 14 6.5C14.5523 6.5 15 6.05228 15 5.5V3.5C15 2.94772 14.5523 2.5 14 2.5Z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										Tea/Coffee/Water
+
+									</div>
+								</div>
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 640 512" height="640" width="512"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										Meeting Rooms
+
+									</div>
+								</div>
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 512 513.5" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M290 64h9.5l4.5 8 15 26.5c24.724 2.496 58.055 13.27 87 52 32.875 43.988 58 119.495 58 249.5v16H309.5c-15.824 9.873-33.657 16-53.5 16-19.855 0-37.678-6.006-53.5-16H48v-16c0-146.14 31.628-230.763 79.5-279S237.133 64 290 64zm-9 33c-46.62.946-93.865 9.081-131 46.5-37.853 38.143-66.557 110.322-69 240.5h86.5c-1.907-2.428-3.734-4.976-5.5-7.5-21.714-31.048-34-69.333-34-104.5 0-12.534 3.387-24.238 10-33s15.651-14.31 25-18c18.698-7.38 39.632-8.33 59.5-10s38.884-3.871 50-9 15.5-9.294 15.5-26h32c0 26.566-15.616 46.288-34.5 55s-39.868 10.307-60 12-39.198 3.54-50.5 8c-5.651 2.23-9.363 4.669-11.5 7.5s-3.5 6.398-3.5 13.5c0 27.377 10.294 61.184 28 86.5s41.39 41.5 68 41.5c26.635 0 50.302-16.231 68-41.5s28-58.943 28-86.5h32c0 35.308-12.277 73.985-34 105-1.633 2.332-3.245 4.755-5 7h86c-2.184-114.716-24.847-180.174-50.5-214.5-26.938-36.043-56.33-41.5-72.5-41.5h-9.5l-4.5-8zm-73 175c8.837 0 16 7.163 16 16s-7.163 16-16 16-16-7.163-16-16 7.163-16 16-16zm96 0c8.837 0 16 7.163 16 16s-7.163 16-16 16-16-7.163-16-16 7.163-16 16-16z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										Separate Washrooms
+
+									</div>
+								</div>
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 24 24" height="24" width="24"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M14 11H10V13H14V11Z"></path>
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7 5V4C7 2.89545 7.89539 2 9 2H15C16.1046 2 17 2.89545 17 4V5H20C21.6569 5 23 6.34314 23 8V18C23 19.6569 21.6569 21 20 21H4C2.34314 21 1 19.6569 1 18V8C1 6.34314 2.34314 5 4 5H7ZM9 4H15V5H9V4ZM4 7C3.44775 7 3 7.44769 3 8V14H21V8C21 7.44769 20.5522 7 20 7H4ZM3 18V16H21V18C21 18.5523 20.5522 19 20 19H4C3.44775 19 3 18.5523 3 18Z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										Air Conditioning
+
+									</div>
+								</div>
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 512 513.5" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M224 48h32v32h32v32h-32v32h-32v-32h-32V80h32V48zM80 80h80v32h-48v304h80v-48h96v48h80V112h-48V80h80v368H256v-48h-32v48H80V80zm80 96h32v32h-32v-32zm64 0h32v32h-32v-32zm64 0h32v32h-32v-32zm-128 64h32v32h-32v-32zm64 0h32v32h-32v-32zm64 0h32v32h-32v-32zm-128 64h32v32h-32v-32zm64 0h32v32h-32v-32zm64 0h32v32h-32v-32z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										Cafeteria
+									</div>
+								</div>
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 512 512" height="512" width="512"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M400 54.1c63 45 104 118.6 104 201.9 0 136.8-110.8 247.7-247.5 248C120 504.3 8.2 393 8 256.4 7.9 173.1 48.9 99.3 111.8 54.2c11.7-8.3 28-4.8 35 7.7L162.6 90c5.9 10.5 3.1 23.8-6.6 31-41.5 30.8-68 79.6-68 134.9-.1 92.3 74.5 168.1 168 168.1 91.6 0 168.6-74.2 168-169.1-.3-51.8-24.7-101.8-68.1-134-9.7-7.2-12.4-20.5-6.5-30.9l15.8-28.1c7-12.4 23.2-16.1 34.8-7.8zM296 264V24c0-13.3-10.7-24-24-24h-32c-13.3 0-24 10.7-24 24v240c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										Power Backup
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- .col-md-6 end -->
+
+				</div>
+				<!-- .row end -->
+			</div>
+			<!-- .container end -->
+		</section>
+		<!-- #feature2 end -->
+
+		<!-- Divider
+		============================================= -->
+		<section class="pt-0 pb-0">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<hr class="feature-divider">
+					</div>
+				</div>
+				<!-- .row end -->
+			</div>
+			<!-- .container end -->
+		</section>
+
+		<!-- Feature #2
+		============================================= -->
+		<section id="feature3" class="section feature feature-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="wow fadeInUp" data-wow-duration="1s">
+							<h3 style="padding-top: 40px;text-align: center;" class="">Why choose us</h3>
+
+
+							<div class="carousel carousel-dots" data-slide="1" data-slide-res="2" data-autoplay="false"
+								data-nav="false" data-dots="false" data-space="30" data-loop="true" data-speed="800">
+
+
+								<div class="client">
+									<img class="center-block" src="assets/images/background/slide1.jpg" alt="client">
+								</div>
+
+								<!-- Client #2 -->
+								<div class="client">
+									<img class="center-block" src="assets/images/background/slide2.jpg" alt="client">
+								</div>
+
+								<!-- Client #3 -->
+								<div class="client">
+									<img class="center-block" src="assets/images/background/slide3.jpg" alt="client">
+								</div>
+
+								<!-- Client #4 -->
+								<div class="client">
+									<img class="center-block" src="assets/images/background/bg-6.jpg" alt="client">
+								</div>
+							</div>
+
+
+
+							<!-- <p class="">Duis aute irure dolor in reprehenderit in voluptate esse cillum dolore eu fugiat
+
+								nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+								official.</p> -->
+
+							<!-- <div class="flexContainer chooseUs">
+
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 448 512" height="448" width="512"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M448 96v256c0 51.815-61.624 96-130.022 96l62.98 49.721C386.905 502.417 383.562 512 376 512H72c-7.578 0-10.892-9.594-4.957-14.279L130.022 448C61.82 448 0 403.954 0 352V96C0 42.981 64 0 128 0h192c65 0 128 42.981 128 96zm-48 136V120c0-13.255-10.745-24-24-24H72c-13.255 0-24 10.745-24 24v112c0 13.255 10.745 24 24 24h304c13.255 0 24-10.745 24-24zm-176 64c-30.928 0-56 25.072-56 56s25.072 56 56 56 56-25.072 56-56-25.072-56-56-56z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										Metro Connectivity
+									</div>
+
+								</div>
+
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 512 512" height="512" width="512"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M256 8C119.034 8 8 119.033 8 256s111.034 248 248 248 248-111.034 248-248S392.967 8 256 8zm130.108 117.892c65.448 65.448 70 165.481 20.677 235.637L150.47 105.216c70.204-49.356 170.226-44.735 235.638 20.676zM125.892 386.108c-65.448-65.448-70-165.481-20.677-235.637L361.53 406.784c-70.203 49.356-170.226 44.736-235.638-20.676z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										No Brokerage
+
+									</div>
+
+								</div>
+
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 512 512" height="512" width="512"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										&lt; 2 hour response time </div>
+
+								</div>
+
+								<div class="flexRow">
+									<div class="paraLogo">
+										<svg viewBox="0 0 640 512" height="640" width="512"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z">
+											</path>
+										</svg>
+									</div>
+									<div class="paraText">
+										Chair & Desks
+									</div>
+
+								</div>
+							</div> -->
+
+
+
+						</div>
+					</div>
+					<!-- .col-md-6 end -->
+					<!-- <div class="col-xs-12 col-sm-6 col-md-6 wow fadeInUp">
+						<img class="img-responsive pull-right" src="assets/images/background/bg-3.jpg" alt="device" />
+					</div> -->
+					<!-- .col-md-6 end -->
+
+				</div>
+				<!-- .row end -->
+			</div>
+			<!-- .container end -->
+		</section>
+		<!-- #feature2 end -->
+
+		<!-- reviews
+        ============================================= -->
+		<section id="reviews" class="section reviews pb-70 bg-white">
+			<div class="container">
+				<div class="row clearfix">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+						<div class="heading heading-1 mb-80 text--center wow fadeInUp" data-wow-duration="1s">
+							<h2 class="heading--title">What users say ?</h2>
+						</div>
+					</div>
+					<!-- .col-md-6 end -->
+				</div>
+				<!-- .row end -->
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<!--  Testimonial #1  -->
+						<div class="testimonial-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="testimonial--img">
+								<img width="70" style="border-radius: 50%;" src="assets/images/testimonials/testi1.jpg"
+									alt="author">
+							</div>
+							<div class="testimonial--body">
+								<div class="testimonial--author">
+									<h5>Harshdev Parmar
+									</h5>
+								</div>
+								<div class="testimonial--job">
+									HR, Gemba Concepts
+								</div>
+								<p>"I am thrilled to express my gratitude for India Accelerator's coworking space in
+									Ahmedabad. The vibrant atmosphere, state-of-the-art facilities, and supportive
+									community have significantly enhanced our coworking space journey. The dedicated
+									team at India Accelerator ensures a seamless experience, offering valuable
+									resources, mentorship, and networking opportunities. This coworking space goes
+									beyond expectations, creating a dynamic ecosystem that propels startups to success."
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- .col-md-6 End -->
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<!--  Testimonial #1  -->
+						<div class="testimonial-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="testimonial--img">
+								<img src="assets/images/testimonials/2.png" alt="author">
+							</div>
+							<div class="testimonial--body">
+								<div class="testimonial--author">
+									<h5>Jessy Arthur</h5>
+								</div>
+								<div class="testimonial--job">
+									Apple Inc.
+								</div>
+								<p>"This should be used to tell a story and include any testimonials you might have
+									about your product or service for your clients."</p>
+							</div>
+						</div>
+					</div>
+					<!-- .col-md-6 End -->
+				</div>
+				<!-- .row End -->
+			</div>
+			<!-- .container End -->
+		</section>
+		<!-- #reviews End-->
+
+		<!-- Clients Carousel Section
+		=== === === === === === === === === === === === === === -->
+		<section style="background-color: #ffffff;" id="clients" class="section clients clients-carousel ">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="carousel carousel-dots" data-slide="4" data-slide-res="2" data-autoplay="false"
+							data-nav="false" data-dots="false" data-space="30" data-loop="true" data-speed="800">
+							<!-- Client #1 -->
+							<div class="client">
+								<img class="center-block" src="assets/images/logo/ntt.jpg" alt="client">
+							</div>
+
+							<!-- Client #2 -->
+							<div class="client">
+								<img class="center-block" src="assets/images/logo/ola.jpg" alt="client">
+							</div>
+
+							<!-- Client #3 -->
+							<div class="client">
+								<img class="center-block" src="assets/images/logo/xpedize_resize.png" alt="client">
+							</div>
+
+							<!-- Client #4 -->
+							<div class="client">
+								<img class="center-block" src="assets/images/logo/zeno.png" alt="client">
+							</div>
+
+							<!-- Client #5 -->
+							<!-- <div class="client"> -->
+							<!-- <img class="center-block" src="assets/images/clients/5.jpg" alt="client"> -->
+							<!-- </div> -->
+							<!-- Client #3 -->
+							<!-- <div class="client"> -->
+							<!-- <img class="center-block" src="assets/images/clients/3.jpg" alt="client"> -->
+							<!-- </div> -->
+
+							<!-- Client #4 -->
+							<!-- <div class="client">
+								<img class="center-block" src="assets/images/clients/4.jpg" alt="client">
+							</div> -->
+						</div>
+					</div>
+					<!-- .col-md-12 end -->
+				</div>
+				<!-- .row end -->
+			</div>
+			<!-- .container end -->
+		</section>
+		<!-- #clients end -->
+
+		<!-- Action #1
+		============================================= -->
+		<section id="cta" class="section cta text-center bg-white">
+			<div class="container">
+				<div class="row">
+					<div style="text-align: left;" class="col-xs-12 col-sm-8 col-md-6 ">
+						<h3 class="heading--title">India Accelerator</h3>
+						<p><a href="https://www.facebook.com/profile.php?id=61555520206304" title="Facebook"
+								target="_blank" rel=""><i class="fa-brands fa-facebook"></i> Facebook</a>&nbsp; /&nbsp;
+							<a href="https://in.linkedin.com/company/india-accelerator" title="LinkedIn" target="_blank"
+								rel=""><i class="fa-brands fa-linkedin"></i> LinkedIn</a>&nbsp; /&nbsp; <a
+								href="https://www.instagram.com/indiaaccelerator/" title="Instagram" target="_blank"
+								rel=""><i class="fa-brands fa-instagram"></i> Instagram</a><br>
+						</p>
+					</div>
+
+					<div style="text-align: left;" class="col-xs-12 col-sm-8 col-md-6 ">
+						<h3 class="heading--title">Contact Details
+						</h3>
+						<p class="heading--desc">UG-006, MGF Metropolis Mall, MG Road, Sector 25, Gurugram, Haryana -
+							122002 </p>
+						<p><a href="mailto:sales@indiaaccelerator.co" title="sales@indiaaccelerator.co"
+								rel="">sales@indiaaccelerator.co</a></p>
+						<p><span style="color:inherit;font-size:30px;"><a href="tel:+91-9971876616"
+									title="+91-9971876616" rel="">+91-9971876616</a></span></p>
+					</div>
+					<!-- .col-md-12 end -->
+				</div>
+				<!-- .row end -->
+			</div>
+			<!-- .container end -->
+		</section>
+		<!-- #cta end -->
+
+		<!-- Footer 
+		============================================= -->
+		<footer id="footer" class="footer footer-5">
+			<!-- Copyrights
+			============================================= -->
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="footer--copyright text-center">
+							<span>© Copyright | India Accelerator 2024. All Right Reserved</span>
+							<span><a href="privacypolicy.html">Privacy
+									Policy</span></a></span>
+						</div>
+					</div>
+					<!-- .col-md-6 end -->
+				</div>
+				<!-- .row end -->
+			</div>
+			<!-- .container end -->
+		</footer>
+	</div>
+	<!-- #wrapper end -->
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="assets/js/jquery-2.2.4.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/functions.js"></script>
+
+
+	<!-- <script>
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbxMRUcBCfUsPqLihPc2uONz5sp3mIhBK-g9prbUbGsAp9Ij-mssbNC5SoDzhjWsXU0/exec'
+		const form = document.forms['submit-to-google-sheet']
+
+		let submitBtn = document.getElementById('submit-btn');
+
+		form.addEventListener('submit', e => {
+			e.preventDefault()
+			submitBtn.value = 'Loading...'
+			submitBtn.disabled = true
+
+			fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+				.then(response => {
+					submitBtn.disabled = false
+					submitBtn.value = 'Submit'
+					window.location.assign('thankyou.html')
+				})
+				.catch(error => console.error('Error!', error.message))
+		})
+	</script> -->
+
+
+	<!-- <script>
+		document.getElementById('leadForm').addEventListener('submit', async function (event) {
+			event.preventDefault();
+
+			const formData = new FormData(this);
+			console.log(formData)
+
+			try {
+				const response = await fetch('/submit-form', {
+					method: 'POST',
+					body: formData,
+				});
+
+				if (response.ok) {
+					console.log('Form submitted successfully!');
+					// Handle success, e.g., show a success message to the user
+				} else {
+					console.error('Form submission failed:', response.statusText);
+					// Handle failure, e.g., show an error message to the user
+				}
+			} catch (error) {
+				console.error('Error submitting form:', error.message);
+				// Handle error, e.g., show a generic error message to the user
+			}
+		});
+	</script> -->
+</body>
+
+</html>
